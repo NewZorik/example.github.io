@@ -331,12 +331,19 @@ input, textarea {
 	color: #333;
 	background: transparent;
 	font-weight: 700;
+	padding-top: 25px;
 	padding-bottom: 25px;
 	border: none;
 	border-bottom: 1px solid #eeeeee;
 }
 .serch-input::-webkit-input-placeholder{
 	color:#cacaca;
+}
+.serch-input-location{
+	background: url(../img/geometka-256x256.png);
+	background-position: 95% center;
+	background-repeat: no-repeat; 
+	padding-right: 40px;
 }
 .serch-footer{
 	background: #135ec5;
