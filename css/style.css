@@ -397,7 +397,7 @@ input, textarea {
 			align-items: center;
 		}
 		.left-block{
-			margin-bottom: 120px;
+			display: none;
 		}
 		.serch{
 			width: 90%;
