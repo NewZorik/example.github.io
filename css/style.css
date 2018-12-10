@@ -1,0 +1,448 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+button{
+	cursor: pointer;
+	outline:none;
+}
+input, textarea {
+ outline:none;
+}
+.header{
+	background: #131210 url(../img/car-text.png) center 140px no-repeat;
+	background: ;
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding-top: 60px;
+}
+.header-top-list{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+.header-top-list li{
+	margin-left: 47px;
+}
+.header-top-list a{
+	color: rgb(255, 255, 255);
+}
+.header-top-list i{
+	color: #135ec5;
+	padding-right: 18px;
+}
+.header-login-btn{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #fff;
+	color: #135ec5;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 20px 35px;
+}
+.header-img{
+	padding: 240px 0px 85px 0px;
+	display: block;
+	margin: 0 auto;
+}
+.header-text{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 46px;
+}
+.header-search{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 97px;
+}
+.header-serch-input{
+	background: transparent;
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-weight: 700;
+	width: 80%;
+	border: none;
+	border-bottom: 2px solid rgb(60, 60, 60);
+}
+.header-serch-input::-webkit-input-placeholder{
+	color: rgb(60, 60, 60);
+}
+.header-serch-btn{
+ font-size: 16px;
+ color: rgb(255, 255, 255);
+ font-weight: 700;
+ text-transform: uppercase;
+ background: #135ec5;
+ padding: 20px 70px;
+ border: 1px solid #135ec5;
+ border-radius: 50px;
+ outline: none;
+}
+.brend-top-title{
+	font-size: 18px;
+	font-family: "Montserrat";
+	color: rgb(193, 193, 193);
+	text-align: center;
+	margin-top: 48px;
+	margin-bottom: 52px;
+}
+.brend-top-list{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 60px;
+	border-bottom: 2px solid rgb(193, 193, 193);
+}
+.brend-top-new-models{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 180px;
+	margin-bottom: 160px;
+}
+.brend-top-img{
+	background: #fff url(../img/section-two/bmw-lite.png) center center no-repeat;
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
+.brend-top-subtitle{
+	font-size: 60px;
+	color: rgb(19, 94, 197);
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 70px;
+}
+.brend-top-text{
+	font-family: "Open Sans";
+	color: rgb(193, 193, 193);
+	line-height: 3;
+	padding-bottom: 90px;
+}
+.brend-top-btn{
+	padding: 20px 25px;
+}
+.add-anotachment-header{
+	text-align: center;
+	padding-bottom: 228px;
+	background: #135ec5;
+}
+.add-anotachment-title{
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	padding-top: 145px;
+	padding-bottom: 90px;
+	background: #135ec5;
+}
+.anotachment-btn{
+	text-align: center;
+	color: #fff;
+	padding: 20px 70px;
+	border: 3px solid #fff;
+	margin-bottom: 228px;
+}
+.add-anotachment-img{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	transform: translateX(0) translateY(-58%);
+}
+.add-anotachment-overlay{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 150px;
+}
+.left-block{
+	position: relative;
+	min-height: 570px;
+	box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+}
+.left-block-top{
+	background: #135ec5 url(../img/left-block/top-left.png) center center no-repeat;
+	width: 450px;
+	height: 195px;
+	position: relative;
+}
+.block-fresh-btn{
+ font-size: 14px;
+ color: rgb(19, 94, 197);
+ font-weight: 700;
+ text-transform: uppercase;
+ background: #fff;
+ padding: 10px 20px;
+ border: 1px solid #fff;
+ border-radius: 50px;
+
+ position: relative;
+ top: 28px;
+ left: 340px;
+}
+.left-block-img{
+	position: absolute;
+	transform: translateX(-50%) translateY(-45%);
+}
+.left-block-info-overlay{
+	display: block;
+	margin: 0 auto;
+	
+	text-align: center;
+}
+.block-title{
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	text-align: center;
+	padding-top: 133px;
+	padding-bottom: 20px;
+}
+.left-block-href{
+	font-size: 14px;
+	color: rgb(19, 94, 197);
+	font-weight: 700;
+	padding: 20px 0px 40px 0px;
+}
+.left-block-text{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.left-block-footer{
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+.block-price{
+	font-size: 30px;
+	color: rgb(22, 173, 44);
+	font-weight: 700;
+}
+.left-block-more-info{
+	background: #e2e2e2;
+	padding: 20px 40px;
+	border-color: #fff; 
+}
+.left-block-footer{
+	margin-bottom: 45px;
+}
+.rigth-block{
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+}
+.left-side{
+	width: 512px;
+}
+.rigth-block-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+}
+.rigth-block-suptitle{
+	font-size: 14px;
+	color: rgb(226, 226, 226);
+	font-weight: 700;
+}
+.block-price-rigth{
+	padding-right: 48px;
+}
+.rigth-block-info{
+	padding-left: 57px;
+	padding-bottom: 115px;
+}
+.rigth-block-title{
+	text-align: left;
+	color: rgb(19, 94, 197);
+	padding-top: 135px;
+}
+.rigth-block-text{
+	padding-bottom: 80px;
+}
+.rigth-side{
+	background: #fff url(../img/section-two/rigth-box.png)  no-repeat;
+	width: 439px;
+	min-height: 653px;
+	position: relative;
+}
+.rigth-block-fresh-btn{
+	position: relative;
+	top: 57px;
+	left: 321px;
+}
+.rigth-block-img{
+	position: relative;
+	transform: translateX(-16%) translateY(42%);
+}
+.rigth-block-btn{
+	padding: 20px 55px;
+}
+.serch{
+	width: 80%;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+	padding-top: 11px;
+	margin-bottom: 175px;
+}
+.serch-row{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	padding-top: 63px;
+	padding-bottom: 72px;
+	color: #cacaca;
+}
+.serch-input{
+	width: 22%;
+	font-size: 18px;
+	color: #333;
+	background: transparent;
+	font-weight: 700;
+	padding-bottom: 25px;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+}
+.serch-input::-webkit-input-placeholder{
+	color:#cacaca;
+}
+.serch-footer{
+	background: #135ec5;
+	padding-bottom: 55px;
+}
+.serch-input-footer{
+	color: #ffffff;
+	border-bottom: 1px solid #4c89dc;
+}
+.serch-btn{
+	display: block;
+	margin: 0 auto;
+}
+.serch-hidden{
+	background:#135ec5;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	padding: 12px 27px;
+	border: 1px solid #135ec5;
+	border-radius: 25px 25px 0 0;
+	outline:none;
+}
+.serch-batton{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: rgb(19, 94, 197);
+	font-weight: 700;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 20px 70px;
+	outline:none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.brend-top-new-models{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 160px;
+		}
+		.brend-top-img {
+	  width: 100%;
+	  height: auto;
+	  margin: 0 auto;
+		}
+		.brend-top-text-block{
+			display: block;
+			width: 80%%;
+			height: auto;
+			margin: 0 auto;
+			padding: 120px 20px 0px 20px;
+		}
+		.add-anotachment-overlay{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.left-block{
+			margin-bottom: 120px;
+		}
+		.serch{
+			width: 90%;
+		}
+}
+
+@media only screen and (max-width: 767px){
+.header-email{
+		display: none;
+	}
+	.header-search{
+		width: 90%;
+	}
+	.brend-top-new-models{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 160px;
+	}
+	.brend-top-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+	}
+	.brend-top-text-block{
+		display: block;
+		width: 80%%;
+		height: auto;
+		margin: 0 auto;
+		padding: 120px 20px 0px 20px;
+	}
+	.add-anotachment-overlay{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.left-block{
+		margin-bottom: 60px;
+	}
+	.rigth-block-top{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.serch{
+		width: 100%;
+	}
+}
